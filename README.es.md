@@ -67,6 +67,17 @@ Visualización del contenido
    
 --&gt;   
 &lt;?php echo $tag['general']['especifico']; ?&gt;   
+
+APP
+----
+
+Está carpeta es una aplicación para actualizar el archivo que tiene el arreglo con el contenido para que, una vez que definas el contenido manualmente,  alguien más (o tú) lo pueda editar desde un navegador web.   
+   
+Dentro de la carpeta app está un archivo index.php. En este archivo se va a visualizar el contenido del archivo lib/tags.php   
+   
+Al enviar el formulario se vuelve a generar el archivo con el contenido actualizado.
+
+
    
 Probado en   
 ----------

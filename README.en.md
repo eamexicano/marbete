@@ -68,7 +68,14 @@ Displaying content
 --&gt;   
 &lt;?php echo $tag['general']['especifico']; ?&gt;   
    
+APP
+----
+
+In this folder there's an application to update the file that has the array with the content, so once you define the content manually, someone else (or you) can edit it from a web browser.   
    
+Inside the folder app, there's an index.php file. In this file the content of the file lib/tags.php will be displayed. 
+   
+When you send the form, the file lib/tags.php will be rewritten with the updated content.   
    
 Tested in   
 ----------
