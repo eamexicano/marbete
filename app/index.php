@@ -38,7 +38,7 @@
         $content .= ")";
         $content .= "\n?>";
   
-        $archivo = fopen("lib/tags.php", 'w') or die('No se pudo crear el archivo log.txt');
+        $archivo = fopen("lib/tags.php", 'w') or die('No se pudo crear el archivo lib/tags.php');
         fwrite($archivo, $content);
         fclose($archivo);
         
