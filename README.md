@@ -1,5 +1,6 @@
 Marbete
 ========
-
-[REAMDE en español](README.es.md)
-[REAMDE in english](README.en.md)
+   
+[README en español](README.es.md)   
+   
+[README in english](README.en.md)   
